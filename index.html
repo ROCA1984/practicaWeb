@@ -1,13 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap 5 Fundamentos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .height{
+            height: 200px;
+            background-color: darkslateblue;
+        }
+    </style>
 </head>
 <body>
-    <h1>Fundamentos</h1>
-    
+    <h1>Fundamentos Bootstrap 5</h1>
+    <div class="container">
+        <h2>Fundamentos Bootstrap 5</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 border">1 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-6 border">2 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-4 col-lg-3 border">3 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-4 col-lg-3 border">4 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-4 col-lg-3 border">5 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-3 border">6 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-4 border">7 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-4 border">8 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-4 border">9 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-5 border">10 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-5 border">11 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-2 border">12 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="row">
+            <div class="col-3 border">1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero officia nemo perspiciatis rerum reiciendis assumenda minus nesciunt nobis laborum architecto. Quia suscipit perferendis, asperiores consequatur laborum laudantium minus neque quisquam.</div>
+            <div class="col-3 border">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione, consectetur beatae odit, inventore totam nostrum alias, corporis asperiores consequuntur dignissimos laboriosam perferendis quaerat officiis porro numquam omnis maiores quia!</div>
+            <div class="col-3 border">3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, possimus molestiae? Reiciendis quidem quos quisquam atque ab aliquam suscipit quasi voluptate libero natus amet, rem tenetur autem ullam! Corrupti, eligendi?</div>
+            <div class="col-3 border">4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ad aspernatur, hic dolorem obcaecati illo quis, incidunt repellat reiciendis molestias esse doloremque at accusantium consectetur? Autem doloremque necessitatibus dolorem dolor?</div>
+        </div>
+        
+        <h2>Grid Columns (Flexbox) items center</h2>
+        <div class="row border height align-items-center">
+            <div class="col-12 col-md-8 border">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-4 border align-self-start">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>
+        </div>
+        <h2>Grid Columns (Flexbox) Items start</h2>
+        <div class="row height align-items-start">
+            <div class="col-12 col-md-8 border">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-4 border">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>
+        </div>
+        <h2>Grid Columns (Flexbox) Items end</h2>
+        <div class="row height align-items-end">
+            <div class="col-12 col-md-8 border align-self-center">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-4 border">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>
+        </div>
+        <h2>Grid Columns (Flexbox) Self Center</h2>
+        <div class="row height">
+            <div class="col border align-self-center">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>
+        </div>
+        <h2>Border (Utilidades)</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 border border-5 border-top-0 border-primary">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-6 border border-5 border-bottom-0 border-success">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>
+            <div class="col-12 col-md-6 border border-top-0 border-4 border-danger">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-6 border border-4 border-warning rounded-circle">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+        </div>
+        <h2>Colores (Utilidades)</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 border border-top-0 border-primary bg-info">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-6 border border-bottom-0 border-success bg-warning">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>
+            <div class="col-12 col-md-6 border border-top-0 border-4 border-danger bg-dark">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-6 border border-4 border-warning rounded-circle bg-success">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-6 border border-4 border-warning bg-success bg-gradient">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-6 border border-4 border-warning bg-danger bg-gradient">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+        </div>
+        <h2>Sombras (Utilidades)</h2>
+        <div class="row">
+            <p class="shadow-lg">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</p>
+            <p class="shadow-md">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</p>
+        </div>
+        <div class="row">
+            <p class="shadow-lg">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</p>
+        </div>
+        <h2>Spacing (Margin and Padding) (Utilidades)</h2>
+        <div class="row">
+            <p class="shadow-lg border-4 p-5 m-5">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</p>
+            <p class="shadow-lg mx-2 m-md-5 px-1 py-5 px-md-5">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</p>
+            <div class="col-12 col-md-4 border border-5 border-top-0 border-primary p-5">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate nobis veritatis explicabo enim illo dolore, mollitia odio facilis ratione. Ut qui quis error nobis odit harum facere assumenda eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse non tempora asperiores illum aspernatur modi libero porro, beatae mollitia, repellendus, ea tenetur. Placeat sint omnis recusandae minus vero ullam quo.</div>
+            <div class="col-12 col-md-4 border border-5 border-bottom-0 border-success bg-danger m-4 p-3">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>
+            <div class="col-12 col-md-8 border border-5 border-bottom-0 border-success bg-info m-2 p-5">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>        
+        </div>
+        <h2>Posicionamiento de Texto (Utilidades)</h2>
+        <div class="row">
+            <p class="shadow-lg border-4 p-5 m-5 text-center text-md-end text-lg-start">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</p>
+            <div class="col-12 col-md-9 col-lg-12 border border-5 border-bottom-0 border-success bg-info p-5 m-5 text-center text-md-end text-lg-start">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>        
+        </div>
+        <h2 class="h1">Tipografía (Utilidades)</h2>
+        <div class="row">
+            <p class="h3 shadow-lg border-4 p-5 m-5 text-center text-md-end text-lg-start">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</p>
+            <div class="h4 col-12 col-md-9 col-lg-12 border border-5 border-bottom-0 border-success bg-info p-5 m-5 text-center text-md-end text-lg-start">2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, eaque placeat natus eum dicta temporibus laudantium nostrum iste similique quas ea magni omnis ducimus minus obcaecati explicabo aliquam atque exercitationem.</div>        
+        <p class="display-5">Lorem ipsum dolor sit amet.</p>
+        <p class="lead">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <h2 class="h1">Images Responsives (Utilidades)</h2>
+        <img src="img/curiosidades-universo-default.jpg" alt="" class="img-fluid">
+        <div class="row m-5 p-3">
+            <div class="col-lg-3">
+                <img src="img/curiosidades-universo-default.jpg" alt="" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-lg-9">
+                <p class="h4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae adipisci perferendis eligendi exercitationem pariatur excepturi modi laudantium quae quas. Ex similique, aliquid minima odio reiciendis hic dicta tempora assumenda dolore.</p>
+            </div>
+        </div>
+
+    </div>   
 </body>
 </html>
+<!--CAPÍTULO 132-->
+<!--CAPÍTULO 141-->
